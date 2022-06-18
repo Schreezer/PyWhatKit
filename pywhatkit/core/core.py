@@ -91,7 +91,7 @@ def send_message(message: str, receiver: str, wait_time: int) -> None:
             else:
                 typewrite(char)
     findtextbox()
-    press("enter")
+    
 
 
 def copy_image(path: str) -> None:
